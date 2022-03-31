@@ -1,0 +1,314 @@
+*{
+    box-sizing: border-box;
+}
+
+.cuerpo{
+    background-color: hsl(270, 20%, 96%);
+    width: 1440px;
+}
+.material-icons-sharp,
+.contenedor-blanco,
+.contenedor-1,
+.contenedor-2,
+.contenedor-0,
+.cabeza,
+.perro-1,
+.perro-2,
+.perro-3,
+.mensaje-1,
+.mensaje-2,
+.mensaje-3,
+.mensaje-4,
+.mensaje-5,
+.opcion-1,
+.precio-1,
+.opcion-2,
+.precio-2,
+.pie-0,
+.pie,   
+.contenedor-4,
+.circulo-1,
+.circulo-2,
+.material-icons-outlined{
+    position: absolute;
+}
+
+.contenedor-blanco{
+    height: 20px;
+    width: 140px;
+    background-color: white;
+    margin-left: 28.3rem;
+    margin-top: 9.5rem;
+    z-index: 1;
+    border-radius: 50px;
+}
+
+.contenedor-1{
+    background-color: hsl(264, 100%, 61%);
+    width: 450px;
+    height: 50rem;
+    border-bottom-right-radius: 400px;
+    border-bottom-left-radius: 100px 30px;
+    z-index: -1;
+}
+
+.contenedor-2{
+    background-color: hsl(293, 100%, 63%);
+    width: 390px;
+    height: 49rem;
+    margin-left: 1500px;
+    margin-top: 10rem;
+    border-top-left-radius: 400px;
+    border-top-right-radius: 100px 30px;
+    z-index: -1;
+}
+
+.contenedor-0{
+    background-color: hsl(270, 20%, 96%);
+    width: 280px;
+    height: 600px;
+    margin-left: 380px;
+    margin-top: 150px;
+    border-radius: 50px;
+    z-index: -1;
+    border: 8px solid white;
+}
+
+.cabeza{
+    background-color: hsl(264, 100%, 61%);
+    width: 260px;
+    height: 65px;
+    margin-left: 390px;
+    margin-top: 160px;
+    border-radius: 10px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+
+
+.foto{
+    position: absolute;
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid white;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.nombre{
+    margin-left: 65px;
+    margin-bottom: -5px;
+    margin-top: 20px;
+    font-family:'Rubik', sans-serif;
+    font-weight: 300;
+    color: white;
+    font-size: 14px;
+}
+
+.estado{
+    margin-left: 65px;
+    font-family:'Rubik', sans-serif;
+    font-size: 10px;
+    color: white;
+}
+
+.mensaje-1{
+    font-size: 13px;
+    padding-left:10px;
+    width: 180px;
+    height: 40px;
+    margin-left: 400px;
+    margin-top: 250px;
+    background-color: lightblue;
+    border-radius: 50px;
+    color: hsl(276, 55%, 52%);
+}
+.mensaje-2{
+    font-size: 13px;
+    padding-left:15px;
+    width: 200px;
+    height: 35px;
+    width: 180px;
+    margin-left: 400px;
+    margin-top: 300px;
+    background-color: lightblue;
+    border-radius: 50px;
+    color: hsl(276, 55%, 52%);
+}
+
+.perro-1{
+    margin-left: 500px;
+    margin-top: 360px;
+    width: 40px;
+    border-radius: 20%;
+}
+.perro-2{
+    margin-left: 550px;
+    margin-top: 360px;
+    width: 40px;
+    border-radius: 20%;
+}
+.perro-3{
+    margin-left: 600px;
+    margin-top: 360px;
+    width: 40px;
+    border-radius: 20%;
+}
+
+.mensaje-3{
+    width: 150px;
+    height: 40px;
+    padding-left:15px;
+    border-radius: 50px;
+    font-size: 13px;
+    margin-left: 500px;
+    margin-top: 420px;
+    color: hsl(271, 15%, 43%);
+    background-color: white;
+}
+
+.mensaje-4{
+    width: 120px;
+    height: 20px;
+    padding-left:15px;
+    border-radius: 50px;
+    font-size: 13px;
+    margin-left: 530px;
+    margin-top: 470px;
+    color: hsl(271, 15%, 43%);
+    background-color: white;
+}
+
+.mensaje-5{
+    font-size: 13px;
+    padding-left:15px;
+    width: 200px;
+    height: 55px;
+    width: 180px;
+    margin-left: 400px;
+    margin-top: 510px;
+    background-color: lightblue;
+    border-radius: 50px;
+    color: hsl(276, 55%, 52%);
+}
+
+.opcion-1{
+    font-size: 13px;
+    background-color: hsl(264, 100%, 61%);
+    border-radius: 50px;
+    padding-left: 25px;
+    padding-top: 10px;
+    width: 180px;
+    height: 40px;
+    margin-left: 400px;
+    margin-top: 590px;
+    color: white;
+}
+
+.precio-1{
+    font-size: 15px;
+    margin-left: 540px;
+    margin-top: 600px;
+    color: white;
+}
+
+.opcion-2{
+    background-color: hsl(264, 100%, 61%);
+    border-radius: 50px;
+    padding-left: 25px;
+    padding-top: 10px;
+    font-size: 13px;
+    width: 180px;
+    height: 40px;
+    margin-left: 400px;
+    margin-top: 640px;
+    color: white;
+}
+
+.precio-2{
+    font-size: 15px;
+    margin-left: 540px;
+    margin-top: 650px;
+    color: white;
+}
+
+.pie-0{
+    width: 220px;
+    height: 35px;
+    background-color: white;
+    margin-left: 410px;
+    margin-top: 700px;
+    z-index: -1;
+    border-radius: 20px;
+}
+.pie{
+    color: black;
+    width: 220px;
+    height: 35px;
+    font-size: 12px;
+    z-index: +1;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+.contenedor-4{
+    width: 400px;
+    height: 300px;
+    margin-left: 50rem;
+    margin-top:20rem;
+}
+
+
+.titulo{
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+}
+
+.texto{
+    line-height: 1.5rem;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 100;
+}
+
+.circulo-2{
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    background-color: hsl(264, 100%, 61%);
+    border: 1px dotted white;
+    margin-left: 405px;
+    margin-top: 651px;
+}
+
+.circulo-1{
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    background-color: hsl(264, 100%, 61%);
+    border: 1px dotted white;
+    margin-left: 405px;
+    margin-top: 600px;
+}
+
+.material-icons-round{
+    width: 60px;
+    height: 50px;
+    margin-left: 190px;
+    margin-top: 5px;
+}
+
+.material-icons-sharp{
+    color: white;
+    font-size: 20px;
+    margin-left: 220px;
+    margin-top: -30px;
+}
+
+.material-icons-outlined{
+    color: white;
+    font-size: 10px;
+    margin-top: 35px;
+    margin-left: 5px;
+}
